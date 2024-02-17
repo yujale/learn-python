@@ -1,5 +1,16 @@
 import requests
 
+"""
+#content获取的是response对象中二进制（byte）类型的页面数据
+#print(response.content)
+#返回一个响应状态码
+#print(response.status_code)
+#返回响应头信息
+#print(response.headers)
+#获取请求的url
+#print(response.url)
+"""
+
 # 指定url
 url = 'https://www.sogou.com/'
 
